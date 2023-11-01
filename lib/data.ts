@@ -1,9 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { RiRobotLine } from "react-icons/ri";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import NetFlix from "@/public/netflix.png";
 import Keyloger from "@/public/project-1.jpg";
 import Trainer from "@/public/project-2.png";
@@ -80,7 +77,7 @@ export const projectsData = [
   {
     title: "Python Keylogger",
     description:
-      "I created this Keylogger when I was teacher my students about Ethical Hacking",
+      "I created this Keylogger when I was teaching my students about Ethical Hacking",
     tags: ["Python", "Socket", "SMTP", "Threading"],
     imageUrl: Keyloger,
   },
