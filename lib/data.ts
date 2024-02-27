@@ -66,13 +66,15 @@ export const projectsData = [
       "I created this project to learn Tailwind with Vite.js",
     tags: ["React", "Vite.js", "Django", "Tailwind", "Docker"],
     imageUrl: NetFlix,
+    link:"https://github.com/Shoib007/netflix-clone-fullstack"
   },
   {
     title: "Trainer Management System", 
     description:
       "I developed this project to manage the training + Trainers in my company",
-    tags: ["React", "JavaScript", "Bootstrap", "ContextAPI", "Docker"],
+    tags: ["React", "JavaScript", "Tailwind CSS", "Docker", "Django", "PostgreSQL", "Redis"],
     imageUrl: Trainer,
+    link:"https://github.com/Shoib007/trainingManagementSystem"
   },
   {
     title: "Python Keylogger",
@@ -80,6 +82,7 @@ export const projectsData = [
       "I created this Keylogger when I was teaching my students about Ethical Hacking",
     tags: ["Python", "Socket", "SMTP", "Threading"],
     imageUrl: Keyloger,
+    link:"https://github.com/Shoib007/Keylogger-Python"
   },
 ] as const;
 

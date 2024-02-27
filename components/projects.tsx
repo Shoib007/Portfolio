@@ -14,9 +14,11 @@ export default function Projects() {
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
-            <Project {...project} />
-          </React.Fragment>
+          <a key={index} href={project.link}>
+            <div className="mb-4 cursor-pointer">
+              <Project {...project} />
+            </div>
+          </a>
         ))}
       </div>
     </section>
