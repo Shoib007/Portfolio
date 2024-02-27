@@ -34,10 +34,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Robotics Engineer",
+    title: "Coding Instructor and Subject Matter Exp",
     location: "Bangalore, KR",
     description:
-      "I develop Robotics Activities and Coding for Companies B2B Clients and give then training on it.",
+      "Writing and evaluating AI and Robotics Book and train the trainers about the content that I've written.",
     icon: React.createElement(RiRobotLine),
     date: "2022 - Current",
   },
