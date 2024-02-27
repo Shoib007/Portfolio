@@ -61,20 +61,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Trainer Management System", 
+    description:
+    "I developed this project to manage the training + Trainers in my company",
+    tags: ["React", "JavaScript", "Tailwind CSS", "Docker", "Django", "PostgreSQL", "Redis"],
+    imageUrl: Trainer,
+    link:"https://github.com/Shoib007/trainingManagementSystem"
+  },
+  {
     title: "Netflix Clone",
     description:
       "I created this project to learn Tailwind with Vite.js",
     tags: ["React", "Vite.js", "Django", "Tailwind", "Docker"],
     imageUrl: NetFlix,
     link:"https://github.com/Shoib007/netflix-clone-fullstack"
-  },
-  {
-    title: "Trainer Management System", 
-    description:
-      "I developed this project to manage the training + Trainers in my company",
-    tags: ["React", "JavaScript", "Tailwind CSS", "Docker", "Django", "PostgreSQL", "Redis"],
-    imageUrl: Trainer,
-    link:"https://github.com/Shoib007/trainingManagementSystem"
   },
   {
     title: "Python Keylogger",
