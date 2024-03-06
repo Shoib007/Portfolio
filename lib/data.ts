@@ -34,10 +34,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Coding Instructor and Subject Matter Exp",
+    title: "Software Developer",
     location: "Bangalore, KR",
     description:
-      "Writing and evaluating AI and Robotics Book and train the trainers about the content that I've written.",
+      "Develop API for various functionality in the ERP software that impact 1K+ clients and their businesses",
     icon: React.createElement(RiRobotLine),
     date: "2022 - Current",
   },
@@ -61,10 +61,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Trainer Management System", 
+    title: "CRM Software", 
     description:
-    "I developed this project to manage the training + Trainers in my company",
-    tags: ["React", "JavaScript", "Tailwind CSS", "Docker", "Django", "PostgreSQL", "Redis"],
+    "I developed this project for my client to manage the Team and their work",
+    tags: ["React", "JavaScript", "Tailwind CSS", "Docker", "Django", "PostgreSQL", "Redis","Celery"],
     imageUrl: Trainer,
     link:"https://github.com/Shoib007/trainingManagementSystem"
   },
