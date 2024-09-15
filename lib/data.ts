@@ -4,6 +4,8 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import NetFlix from "@/public/netflix.png";
 import Keyloger from "@/public/project-1.jpg";
 import Trainer from "@/public/project-2.png";
+import Mekathlon from "@/public/project-3.png";
+import Vizygo from "@/public/project-4.png";
 
 export const links = [
   {
@@ -34,10 +36,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     location: "Bangalore, KR",
     description:
-      "Develop API for various functionality in the ERP software that impact 1K+ clients and their businesses",
+      "Working on developing Robotics Products and Books for B2B clients",
     icon: React.createElement(RiRobotLine),
     date: "2022 - Current",
   },
@@ -60,6 +62,20 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Vizygo: A Bike Rental Service",
+    description: "Developed the Backend of Bike Rental Service for my client to manage the Bike Rental Business",
+    tags: ["Python, Django, PostgreSQL, AWS, Docker, GitLab CI/CD", "GCP"],
+    imageUrl: Vizygo,
+    link:"https://www.vizygo.in"
+  },
+  {
+    title: "Mekathlon: A International Robotics Competition Organizer",
+    description: "Developed the Backend to manage registration and payments for Robotics Competition",
+    tags: ["Python, Django, PostgreSQL"],
+    imageUrl: Mekathlon,
+    link:"https://www.mekathlon.com"
+  },
   {
     title: "CRM Software", 
     description:
